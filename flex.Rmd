@@ -1,0 +1,120 @@
+---
+title: "Interactive Plots with Flex Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    theme: flatly
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+
+data(instacart)
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+# Make a plot that shows the number of items ordered in each aisle, 
+# limiting to aisles with more than 20000 items ordered.
+aisle_sum1 = instacart |>
+  janitor::clean_names() |>
+  group_by(aisle) |>
+  summarize(
+    # count how manys times a aisle is ordered from
+    times_ordered = n()
+  ) |>
+  arrange(desc(times_ordered)) |>
+  
+  # reorder the display order
+  mutate(
+    aisle = forcats::fct_reorder(
+      aisle, 
+      desc(times_ordered)
+    )
+  ) 
+
+aisle_fig1 = aisle_sum1 |>
+  # filter out the aisles with more than 10000 items ordered
+  filter(times_ordered >= 20000) |>
+  
+  plot_ly(
+    x = ~aisle,
+    y = ~times_ordered,
+    type = "bar"
+  ) 
+
+aisle_fig1
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+top_aisle = aisle_sum1 |>
+  mutate(aisle_ranking = min_rank(desc(times_ordered))) |>
+  filter(aisle_ranking <= 3)
+  
+aisle_sum2 = instacart |>
+  janitor::clean_names() |>
+  filter(aisle %in% c(pull(top_aisle, aisle))) 
+
+aisle_fig2 = aisle_sum2 |>
+  plot_ly(
+    x = ~aisle, y = ~order_hour_of_day, color = ~aisle,
+    type = 'box', colors = "viridis"
+  )
+
+aisle_fig2
+```
+
+### Chart C
+
+```{r}
+top_product = aisle_sum2 |>
+  group_by(aisle_id, aisle, product_id, product_name) |>
+  summarise(
+    n = n()
+  ) |>
+  ungroup() |>
+  group_by(aisle_id, aisle) |>
+  mutate(
+    ranking = min_rank(desc(n))
+  ) |>
+  filter(
+    ranking <= 3
+  )
+
+aisle_sum3 = instacart |>
+  filter(product_name %in% c(pull(top_product, product_name))) |>
+  group_by(aisle, product_name, order_dow) |>
+  summarize(
+    times_ordered = n()
+  ) |>
+  mutate(
+    day_of_the_week = factor(
+      order_dow,
+      levels = c(0:6),
+      labels = c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+    ),
+    product = str_c(product_name, " (", aisle, ")")
+  )
+  
+aisle_fig3 = aisle_sum3 |>
+  plot_ly(
+    x = ~day_of_the_week, y = ~times_ordered, color = ~product, 
+    type = "scatter", mode = "lines", colors = "viridis"
+  )
+
+aisle_fig3
+```
+

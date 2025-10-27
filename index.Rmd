@@ -1,0 +1,18 @@
+---
+title: "Chuyuan Xu's Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+---
+
+# Introductory
+Hi, I am Chuyuan Xu.\
+I am a current 2nd-year MPH candidate at the Mailman School of Public Health, Columbia University. I am in the department of Biostatistics, pursuing a certificate in Advanced Epidemiology. I developed this website to support my learning in P8105: Data Science I in the Fall of 2025. At the same time, I am excited to use this website as a platform to share my experience and showcase my work with you.
+
+To learn more about my experience, you can click [here](resume.html) to view my resume.
+
+# some plots
+Click [here](flex.html) to view some plots I made with flex dashboard.
+

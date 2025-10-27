@@ -1,0 +1,44 @@
+---
+title: "My Experience"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+---
+
+## Education
+#### *Columbia University Mailman School of Public Health, NY*
+September 2024 – Current\
+**Department**: Biostatistics\
+**Certificate**: Advanced Epidemiology\
+**Cumulative GPA**: 4.105/4.00\
+
+#### *Vanderbilt University, Nashville, TN*				                    	       
+September 2020 - May 2024\
+**Bachelor of Arts:** Communication of Science & Technology and Ecology, Evolution & Organismal Biology\
+**Cumulative GPA:** 3.60/4.00\
+**Honors:** Vanderbilt University Student Research Program (VUSRP) in Summer 2023 with Littlejohn Fellow Awards; Dean’s List (2020 Fall, 2021 Spring, 2021 Fall, 2024 Spring)\
+<br>
+
+## Skills
+&nbsp;&nbsp;&nbsp;-	Statistical Analysis (Regression models; Survival Analysis; Structural Equation Modeling)\
+&nbsp;&nbsp;&nbsp;-	Data Collection, Cleaning, Processing, and Visualization with RStudio (tidyverse) and basic SAS programming.\
+&nbsp;&nbsp;&nbsp;-	Science reports, science communication, and public speech.\
+<br>
+
+## Internship Experience
+##### *Intern SAS Programmer, NJS Associates Company*
+Advisor: Kat Zhu
+June 2025 – August 2025\
+&nbsp;&nbsp;&nbsp;-	Learned about clinical trials regarding study design, data collection, cleaning, and CDISC data standards by reading and studying real-life datasets. Gained an understanding of clinical trials regarding study design, data collection, cleaning, and analysis.\
+&nbsp;&nbsp;&nbsp;-	Used basic SAS programming to manipulate and summarize the main safety data modules, including demographic data, adverse events, vital signs, laboratory results, and study medications.\
+&nbsp;&nbsp;&nbsp;-	Assisted the programming team in generating SDTM/ADaM specifications and annotated Case Report Form (CRF), and followed SAP and TLG shells to quality check (QC) and create tables, listings, and graphs with SAS programs.\
+
+#### *Intern, Peking Union Medical College Hospital*
+Advisor: Professor Liangkun Ma
+December 2024 – February 2025\
+&nbsp;&nbsp;&nbsp;-	Performed data entry and collected patient posture and body composition records for the National Physique and Health Database and reproductive health research.\
+&nbsp;&nbsp;&nbsp;-	Shadowed Dr. Liangkun Ma to gain insights into obstetric counseling and multidisciplinary perinatal care, and wrote proposals on the Hospital’s mobile application upgrade for a better user experience.\
+&nbsp;&nbsp;&nbsp;-	Joined Professor Ma in Wen Zhou, China, for a 1-week training program, introducing multidisciplinary neonatal care methods to local doctors.
+
