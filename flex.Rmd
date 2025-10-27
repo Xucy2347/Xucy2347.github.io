@@ -18,6 +18,7 @@ data(instacart)
 
 Column {data-width=500}
 -----------------------------------------------------------------------
+go back to [home](index.html)
 
 ### Figure A: the Number of Items Ordered in Aisles (>20000 Items)
 
