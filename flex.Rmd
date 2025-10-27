@@ -19,7 +19,7 @@ data(instacart)
 Column {data-width=500}
 -----------------------------------------------------------------------
 
-### Chart A
+### Figure A: the Number of Items Ordered in Aisles (>20000 Items)
 
 ```{r}
 # Make a plot that shows the number of items ordered in each aisle, 
@@ -57,7 +57,7 @@ aisle_fig1
 Column {data-width=500}
 -----------------------------------------------------------------------
 
-### Chart B
+### Figure 2: the Distribution of the Hour in the Day when Orders were placed for the Three Most Popular Aisles
 
 ```{r}
 top_aisle = aisle_sum1 |>
@@ -77,21 +77,20 @@ aisle_fig2 = aisle_sum2 |>
 aisle_fig2
 ```
 
-### Chart C
+### Figure 3: Number of Top Ten Items Ordered in each Day of the Week
 
 ```{r}
 top_product = aisle_sum2 |>
-  group_by(aisle_id, aisle, product_id, product_name) |>
+  group_by(product_id, product_name) |>
   summarise(
     n = n()
   ) |>
   ungroup() |>
-  group_by(aisle_id, aisle) |>
   mutate(
     ranking = min_rank(desc(n))
   ) |>
   filter(
-    ranking <= 3
+    ranking <= 10
   )
 
 aisle_sum3 = instacart |>
