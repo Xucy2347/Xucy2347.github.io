@@ -7,7 +7,7 @@ navbar:
       href: about.html
     - text: "More about me"
       href: resume.html
-    - text: "Plots"
+    - text: "Dashboard"
       href: flex.html
     - icon: fa-envelope fa-lg
       href: mailto:<cx2347@cumc.columbia.edu>

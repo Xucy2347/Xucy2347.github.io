@@ -13,6 +13,6 @@ I am a current 2nd-year MPH candidate at the Mailman School of Public Health, Co
 
 To learn more about my experience, you can click [here](resume.html) to view my resume.
 
-# some plots
+# Some plots
 Click [here](flex.html) to view some plots I made with flex dashboard.
 
