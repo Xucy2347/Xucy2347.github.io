@@ -1,5 +1,5 @@
 ---
-title: "My Experience"
+title: "My Experiences"
 output: 
   html_document:
     toc: true
@@ -7,38 +7,173 @@ output:
     theme: flatly
 ---
 
-## Education
-#### *Columbia University Mailman School of Public Health, NY*
-September 2024 – Current\
-**Department**: Biostatistics\
-**Certificate**: Advanced Epidemiology\
-**Cumulative GPA**: 4.105/4.00\
-
-#### *Vanderbilt University, Nashville, TN*				                    	       
-September 2020 - May 2024\
-**Bachelor of Arts:** Communication of Science & Technology and Ecology, Evolution & Organismal Biology\
-**Cumulative GPA:** 3.60/4.00\
-**Honors:** Vanderbilt University Student Research Program (VUSRP) in Summer 2023 with Littlejohn Fellow Awards; Dean’s List (2020 Fall, 2021 Spring, 2021 Fall, 2024 Spring)\
 <br>
+
+
+## EDUCATION
+
+<br>
+
+### *Columbia University Mailman School of Public Health, NY*
+<div style="text-align: right;">September 2024 - May 2026 (expected)</div>
+
+  - **Department**: Biostatistics
+  - **Certificate**: Advanced Epidemiology
+  - **Cumulative GPA**: 4.13/4.00
+  - **Relevant Coursework**: Statistical Computing with SAS (25 S), Data Science I (25 F), Survival Analysis (25 F), Latent Variable and Structural Equation (25 S), Applied Regression I & II (25S, 25 F), Analysis of Categorical Data (25 S)
+  - **Honor**: Delta Omega Honor Society, Delta Pi Chapter — Inducted, Class of 2026
+
+<br>
+
+### *Vanderbilt University, Nashville, TN*
+<div style="text-align: right;">September 2020 - May 2024</div>
+
+  - **Bachelor of Arts:** Communication of Science & Technology and Ecology, Evolution & Organismal Biology
+  - **Cumulative GPA:** 3.60/4.00
+  - **Honors:** Vanderbilt University Student Research Program (VUSRP) in Summer 2023 with Littlejohn Fellow Awards; Dean’s List (2020 Fall, 2021 Spring, 2021 Fall, 2024 Spring)
+
+
+<br>
+
 
 ## Skills
-&nbsp;&nbsp;&nbsp;-	Statistical Analysis (Regression models; Survival Analysis; Structural Equation Modeling)\
-&nbsp;&nbsp;&nbsp;-	Data Collection, Cleaning, Processing, and Visualization with RStudio (tidyverse) and basic SAS programming.\
-&nbsp;&nbsp;&nbsp;-	Science reports, science communication, and public speech.\
+  - Statistical Analysis (Regression models; Survival Analysis; Structural Equation Modeling)
+  - Data Collection, Cleaning, Processing, and Visualization with RStudio (tidyverse) and basic SAS programming.
+  - Science reports, science communication, and public speech.
+  - Languages: Mandarin (Native), English (Fluent)
+
+
 <br>
 
-## Professionalwh Experience
-##### *Intern SAS Programmer, NJS Associates Company*
-Advisor: Kat Zhu
-June 2025 – August 2025\
-&nbsp;&nbsp;&nbsp;-	Learned about clinical trials regarding study design, data collection, cleaning, and CDISC data standards by reading and studying real-life datasets. Gained an understanding of clinical trials regarding study design, data collection, cleaning, and analysis.\
-&nbsp;&nbsp;&nbsp;-	Used basic SAS programming to manipulate and summarize the main safety data modules, including demographic data, adverse events, vital signs, laboratory results, and study medications.\
-&nbsp;&nbsp;&nbsp;-	Assisted the programming team in generating SDTM/ADaM specifications and annotated Case Report Form (CRF), and followed SAP and TLG shells to quality check (QC) and create tables, listings, and graphs with SAS programs.\
 
-#### *Intern, Peking Union Medical College Hospital*
+## PROFESSIONAL EXPERIENCE
+
+<br>
+
+### *Intern SAS Programmer, NJS Associates Company*
+Advisor: Kat Zhu<br>
+<div style="text-align: right;">June 2025 - August 2025</div>
+
+  - Learned about clinical trials, including study design, data collection and cleaning, and CDISC data standards, using authentic datasets. Gained an understanding of the clinical trials workflow.
+  - Used SAS programming to manipulate and summarize the primary safety data modules, including demographics, adverse events, vital signs, laboratory results, and study medications.
+  - Assisted the programming team in generating SDTM/ADaM specifications and an annotated Case Report Form (CRF), and followed SAP and TLG shells to perform quality checks (QC) and create tables, listings, and graphs with SAS programs.
+
+<br>
+
+### *Intern, Peking Union Medical College Hospital*
 Advisor: Professor Liangkun Ma
-December 2024 – February 2025\
-&nbsp;&nbsp;&nbsp;-	Performed data entry and collected patient posture and body composition records for the National Physique and Health Database and reproductive health research.\
-&nbsp;&nbsp;&nbsp;-	Shadowed Dr. Liangkun Ma to gain insights into obstetric counseling and multidisciplinary perinatal care, and wrote proposals on the Hospital’s mobile application upgrade for a better user experience.\
-&nbsp;&nbsp;&nbsp;-	Joined Professor Ma in Wen Zhou, China, for a 1-week training program, introducing multidisciplinary neonatal care methods to local doctors.
+<div style="text-align: right;">December 2024 - February 2025</div>
 
+  - Collected and managed patient posture and body composition records for the National Physique and Health Database and for reproductive health research.
+  - Shadowed Dr. Liangkun Ma to gain insights into obstetric counseling and multidisciplinary perinatal care.
+  - Contributed to proposing improvements to the usability of the hospital mobile health application.
+  - Assisted Professor Ma in a 1-week training program in Wen Zhou, China, introducing multidisciplinary neonatal care methods to local doctors.
+
+
+<br>
+
+
+## ACADEMIC EXPERIENCE
+
+<br>
+
+### *Student Researcher, CHART*
+Advisor: Professor Marianthi Anna Kioumourtzoglou; Associate Professor Jeff Goldsmith<br>
+
+**Climate and Health: Action and Research for Transformational Change**<br>
+<div style="text-align: right;">October 2024 - Current</div>
+
+  - Collected daily zcta-level data on meteorological factors and extreme weather events in the United States from 1950 to 2025 from various sources; cleaned and merged the data using RStudio.
+  - Assisted in developing a novel spatial-temporal index of exposure to co-occurring climate threats optimized for use in epidemiologic and health studies.
+  - Collaborated with other researchers to examine the association between climate threats and neurodegenerative diseases, controlling for housing data and other baseline characteristics.
+  - Performed Kriging to estimate the snowfall from sparse ground NOAA observations from 2000 to 2025.
+
+<br>
+
+### *Student Researcher, LGBTQ+ Mental Health Project*
+Advisor: Shichang Yang, School of Social Work<br>
+<div style="text-align: right;">December 2025 - present</div>
+
+  - Coauthored an empirically informed theoretical study on Mental Health Disparities among Chinese college LGBTQ+ individuals using Structural Equation Modeling (SEM) in R.
+  - Analyzed cross-sectional survey data (n = 844) and explored the mediating role of self-restraint in gender expression linking LGBTQ+ identities to depression, anxiety, and low self-esteem.
+  - Integrated stigma concealment theory to inform model specification, development in R, and interpretation.
+
+<br>
+
+### *Student Researcher, DeSantis DREAM Lab*
+Advisor: Assoc. Professor Larisa DeSantis <br>
+<div style="text-align: right;">August 2022 - May 2024</div>
+
+**Dietary Variability in Lynx Rufus from the Pleistocene to the Present**
+December 2022 - May 2024
+
+  - Conducted molding, casting, and scanning of about 70 Lynx Rufus molar teeth samples to obtain micron-level 3D images and four adjacent surface images of dental microwear.
+  - Performed scale-sensitive fractal analysis to generate descriptive variables of the teeth's surface texture.
+  - Performed statistical analysis to study variation in bobcats’ diets across different Level I bioregions and epochs in North America using Dental Microwear Texture Analysis (DMTA).
+  
+**Society of Vertebrate Paleontology 83rd Annual Meeting**
+<div style="text-align: right;">October 2023</div>
+  
+  - Gave a poster presentation at the 83rd annual conference of the Society of Vertebrate Paleontology and presented the complete research at Vanderbilt’s Poster Fair in the spring semester.
+  
+  **Traveling to the Natural History Museum of Los Angeles County**
+Advisor: LAMNHB, Curator & Chair, Dept. Vertebrate Paleontology, Xiaoming Wang</br>
+<div style="text-align: right;">November 2022</div>
+  
+  - Representing DeSantis DreamLab, traveling to LAMNHB and cooperating with the vertebrate paleontology department at the Natural History Museum of Los Angeles County, to collect molded samples of Bobcat and Smilodon molar teeth.
+  - Visited the fossil collection and collected morphology data on all examined Smilodon samples for further statistical tests on morphology and DMTA results.
+  - Build experience in working with museum collections and data processing and collections.
+
+<br>
+
+### *Science Communicator, the Science Communication Project: Changing the Game*
+Advisor: Professor David W. Wright; Research Assistant Professor Shellie Richards</br>
+<div style="text-align: right;">August 2022 – May 2024</div>
+
+  - Drafted reports on the plain language used in typical academic or public-facing science papers and discussed how to improve the accessibility and readability of scientific texts.
+  - Attended SCIENCE TALK ’23, held by the Association of Science Communicators in Portland, Oregon.
+
+
+<br>
+
+
+## LEADERSHIP & MENTORSHIP
+
+<br>
+
+### *Teaching Assistant - Quantitative Methods (P6031: Research Methods and Application)*
+
+*Mailman School of Public Health, Columbia University, New York*<br>
+<div style="text-align: right;">September 2025 - December 2025</div>
+
+  - Facilitated weekly lab sessions for 18 graduate students, reinforcing concepts in biostatistics and epidemiology, quantitative research methods, and applied statistics through group discussions and team-based learning.
+  - Provided academic support through weekly office hours, clarifying analytical concepts and problem-solving strategies.
+  - Enhanced communication, mentoring, and analytical skills through direct engagement with diverse learners.
+
+<br>
+
+### *Student Ambassador, Department of Biostatistics*
+*Mailman School of Public Health, Columbia University, New York*
+<div style="text-align: right;">September 2025 - Present</div>
+
+  - Represented the department of Biostatistics and served as a bridge between students, faculty, and administration. 
+  - Supported both prospective and current students through mentorship and guidance, increasing their engagement and sense of community-building. 
+  - Assisted with recruitment initiatives by hosting campus tours, organizing events, and reaching out to students via email.
+
+<br>
+
+### Spirit of Gold Marching Band and Anchor of Sound Basketball Band at Vanderbilt
+<div style="text-align: right;">August 2021 - May 2024</div>
+
+*Tenor Saxophone Section Leader*<br>
+<div style="text-align: right;">August 2022 - May 2023</div>
+  
+  - Helped train new members in marching and music-performing techniques.
+  - Took part in and helped with rehearsing shows for football fans attending Vanderbilt football home games.
+
+<br>
+
+### *Sister, Tau Beta Sigma Honorary Band Sorority*
+<div style="text-align: right;">December 2021 - May 2024</div>
+
+  - Participated in an approximately 30-member community-service sorority to support the mission of promoting music, leadership, and service to build a hospitable environment for each chapter meeting, rehearsal, and game day.
