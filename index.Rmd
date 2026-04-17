@@ -13,7 +13,11 @@ I am a current 2nd-year MPH candidate at the Mailman School of Public Health, Co
 
 To learn more about my professional, academic and leadership experience, you can click [here](resume.html) to view my resume.
 
+<br>
+
+
 # Data visualization
 I enjoy translating cold statistics into colorful, warm and interactive figures.
-Click [here](flex.html) to view some plots I made with flex dashboard.
-*1 []
+
+  1. [Aisles and Items Orders Summary](aisle_sum/flex.html)
+  2. [Meteorlogical Variables in NY state from 2016 to 2020](https://xucy2347.shinyapps.io/NYmeteor_dashboard/)
